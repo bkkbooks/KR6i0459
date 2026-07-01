@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0459/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0459/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說決定義經
+  identifiers:
+    krp: KR6i0459
+    cbeta: T17n0762
+    cbeta_old_id: T17n0762
+    authorityid: CA0001901
+    json_key: T0762
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0762.xml
+    old_id: T17n0762
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0459_000-T.yaml, hash: 'sha256:b1c15cb80eec7db554c4418fccf1557d973c036bc7b6271ad3a10eb72453f363'}
+  - {seq: 1, filename: KR6i0459_001-T.yaml, hash: 'sha256:cf2e4b8b663232b0ffa81447259de08753e6f77e970e2537cc600a834acc53f5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0459_000-T.markers.yaml, hash: 'sha256:5495dab26f4fc71e616c465caf2b0276031873adb5dd457986dbfd82ca199f2f'}
+  - {seq: 1, role: markers, filename: assets/KR6i0459_001-T.markers.yaml, hash: 'sha256:8572fd3979fc519972fec522693cd24b228e41e4a6925b0d2429926187f7c7c6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0459_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4444
+  label: 佛說決定義經
+  type: juan
+  level: 1
+hash: sha256:498737412da1c7813a8d1d2cbf43de0c27c85cb775492bbc21e52fc7619c303d
